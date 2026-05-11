@@ -292,9 +292,9 @@ S3_BUCKET = "ddsfocustime"
 S3_REGION = os.getenv('S3_REGION')
 s3_client = boto3.client(
     "s3",
-    region_name=S3_REGION,
-    aws_access_key_id=S3_ACCESS_KEY,        # use variable, no quotes
-    aws_secret_access_key=S3_SECRET_KEY     
+    # region_name=S3_REGION,
+    # aws_access_key_id=S3_ACCESS_KEY,        # use variable, no quotes
+    # aws_secret_access_key=S3_SECRET_KEY     
 )
 
 
