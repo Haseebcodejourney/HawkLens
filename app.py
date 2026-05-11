@@ -286,8 +286,8 @@ DB_NAME = os.getenv("DB_NAME", "u906714182_sqlrrefdvdv")
 DB_PORT = int(os.getenv("DB_PORT", 3306))
 
 
-S3_ACCESS_KEY = "AKIARSU6EUUWMQ5I2JWC"
-S3_SECRET_KEY = "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"
+# S3_ACCESS_KEY = "AKIARSU6EUUWMQ5I2JWC"
+# S3_SECRET_KEY = "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"
 S3_BUCKET = "ddsfocustime"
 S3_REGION = os.getenv('S3_REGION')
 s3_client = boto3.client(
